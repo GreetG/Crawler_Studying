@@ -1,16 +1,10 @@
 # Python爬虫自学  
 *** 
-这是一个简单的验证码破解流程，通过获取验证码url，导入函数库tesseract并调用里面的image_to_string方法将简单的验证码识别出来，通过破解验证码实现一般网站的登录自动化 
+这是一个爬虫学习记录项目记录作者从初级爬虫开始不断学学习目标到实现通用爬虫 
 ***
-*识别的重点在于将图像进行灰度和二值化处理*  
 
-```
-def preprocess_image(self, image):
-image = image.convert('L')  # 转为灰度
-enhancer = ImageEnhance.Contrast(image)
-image = enhancer.enhance(2)  # 增强对比度
-image = image.point(lambda x: 0 if x < 180 else 255)  # 二值化
-return image
-```  
 
-***最后将识别的结果存入data中并发送请求***
+| 项目       | 是否实现 |
+|----------|------|
+| 极验一键登录   | 实现   |
+| 简单字符串验证码 | 实现   |
