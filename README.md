@@ -4,11 +4,13 @@
 ***
 *识别的重点在于将图像进行灰度和二值化处理*  
 
-`def preprocess_image(self, image):
+```
+def preprocess_image(self, image):
 image = image.convert('L')  # 转为灰度
 enhancer = ImageEnhance.Contrast(image)
 image = enhancer.enhance(2)  # 增强对比度
 image = image.point(lambda x: 0 if x < 180 else 255)  # 二值化
-return image`  
+return image
+```  
 
 ***最后将识别的结果存入data中并发送请求***
