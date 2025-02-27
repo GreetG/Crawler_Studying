@@ -19,4 +19,5 @@ def getPageUrl(max_number):
             print(f"写入第{i}篇")
 ```
 ***最后将识别的结果存入data中并保存为文本数据***  
-![结果展示](..%2Fimgs%2Ftaiwanbbs.png)
+![结果展示](..%2Fimgs%2Ftaiwanbbs.png)  
+***注意科学上网***
