@@ -1,245 +1,161 @@
 {
     "title": "A Light in the Attic",
     "price": "\u00a351.77",
-    "author": "A Light in the ..."
+    "isstock": "In stock"
 }{
     "title": "Tipping the Velvet",
     "price": "\u00a353.74",
-    "author": "Tipping the Velvet"
+    "isstock": "In stock"
 }{
     "title": "Soumission",
     "price": "\u00a350.10",
-    "author": "Soumission"
+    "isstock": "In stock"
 }{
     "title": "Sharp Objects",
     "price": "\u00a347.82",
-    "author": "Sharp Objects"
+    "isstock": "In stock"
 }{
     "title": "Sapiens: A Brief History of Humankind",
     "price": "\u00a354.23",
-    "author": "Sapiens: A Brief History ..."
+    "isstock": "In stock"
 }{
     "title": "The Requiem Red",
     "price": "\u00a322.65",
-    "author": "The Requiem Red"
+    "isstock": "In stock"
 }{
     "title": "The Dirty Little Secrets of Getting Your Dream Job",
     "price": "\u00a333.34",
-    "author": "The Dirty Little Secrets ..."
+    "isstock": "In stock"
 }{
     "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
     "price": "\u00a317.93",
-    "author": "The Coming Woman: A ..."
+    "isstock": "In stock"
 }{
     "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
     "price": "\u00a322.60",
-    "author": "The Boys in the ..."
+    "isstock": "In stock"
 }{
     "title": "The Black Maria",
     "price": "\u00a352.15",
-    "author": "The Black Maria"
+    "isstock": "In stock"
 }{
     "title": "Starving Hearts (Triangular Trade Trilogy, #1)",
     "price": "\u00a313.99",
-    "author": "Starving Hearts (Triangular Trade ..."
+    "isstock": "In stock"
 }{
     "title": "Shakespeare's Sonnets",
     "price": "\u00a320.66",
-    "author": "Shakespeare's Sonnets"
+    "isstock": "In stock"
 }{
     "title": "Set Me Free",
     "price": "\u00a317.46",
-    "author": "Set Me Free"
+    "isstock": "In stock"
 }{
     "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
     "price": "\u00a352.29",
-    "author": "Scott Pilgrim's Precious Little ..."
+    "isstock": "In stock"
 }{
     "title": "Rip it Up and Start Again",
     "price": "\u00a335.02",
-    "author": "Rip it Up and ..."
+    "isstock": "In stock"
 }{
     "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
     "price": "\u00a357.25",
-    "author": "Our Band Could Be ..."
+    "isstock": "In stock"
 }{
     "title": "Olio",
     "price": "\u00a323.88",
-    "author": "Olio"
+    "isstock": "In stock"
 }{
     "title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
     "price": "\u00a337.59",
-    "author": "Mesaerion: The Best Science ..."
+    "isstock": "In stock"
 }{
     "title": "Libertarianism for Beginners",
     "price": "\u00a351.33",
-    "author": "Libertarianism for Beginners"
+    "isstock": "In stock"
 }{
     "title": "It's Only the Himalayas",
     "price": "\u00a345.17",
-    "author": "It's Only the Himalayas"
+    "isstock": "In stock"
 }{
     "title": "In Her Wake",
     "price": "\u00a312.84",
-    "author": "In Her Wake"
-}{
-    "title": "A Light in the Attic",
-    "price": "\u00a351.77",
-    "author": "A Light in the ..."
-}{
-    "title": "Tipping the Velvet",
-    "price": "\u00a353.74",
-    "author": "Tipping the Velvet"
-}{
-    "title": "Soumission",
-    "price": "\u00a350.10",
-    "author": "Soumission"
-}{
-    "title": "Sharp Objects",
-    "price": "\u00a347.82",
-    "author": "Sharp Objects"
-}{
-    "title": "Sapiens: A Brief History of Humankind",
-    "price": "\u00a354.23",
-    "author": "Sapiens: A Brief History ..."
-}{
-    "title": "The Requiem Red",
-    "price": "\u00a322.65",
-    "author": "The Requiem Red"
-}{
-    "title": "The Dirty Little Secrets of Getting Your Dream Job",
-    "price": "\u00a333.34",
-    "author": "The Dirty Little Secrets ..."
-}{
-    "title": "The Coming Woman: A Novel Based on the Life of the Infamous Feminist, Victoria Woodhull",
-    "price": "\u00a317.93",
-    "author": "The Coming Woman: A ..."
-}{
-    "title": "The Boys in the Boat: Nine Americans and Their Epic Quest for Gold at the 1936 Berlin Olympics",
-    "price": "\u00a322.60",
-    "author": "The Boys in the ..."
-}{
-    "title": "The Black Maria",
-    "price": "\u00a352.15",
-    "author": "The Black Maria"
-}{
-    "title": "Starving Hearts (Triangular Trade Trilogy, #1)",
-    "price": "\u00a313.99",
-    "author": "Starving Hearts (Triangular Trade ..."
-}{
-    "title": "Shakespeare's Sonnets",
-    "price": "\u00a320.66",
-    "author": "Shakespeare's Sonnets"
-}{
-    "title": "Set Me Free",
-    "price": "\u00a317.46",
-    "author": "Set Me Free"
-}{
-    "title": "Scott Pilgrim's Precious Little Life (Scott Pilgrim #1)",
-    "price": "\u00a352.29",
-    "author": "Scott Pilgrim's Precious Little ..."
-}{
-    "title": "Rip it Up and Start Again",
-    "price": "\u00a335.02",
-    "author": "Rip it Up and ..."
-}{
-    "title": "Our Band Could Be Your Life: Scenes from the American Indie Underground, 1981-1991",
-    "price": "\u00a357.25",
-    "author": "Our Band Could Be ..."
-}{
-    "title": "Olio",
-    "price": "\u00a323.88",
-    "author": "Olio"
-}{
-    "title": "Mesaerion: The Best Science Fiction Stories 1800-1849",
-    "price": "\u00a337.59",
-    "author": "Mesaerion: The Best Science ..."
-}{
-    "title": "Libertarianism for Beginners",
-    "price": "\u00a351.33",
-    "author": "Libertarianism for Beginners"
-}{
-    "title": "It's Only the Himalayas",
-    "price": "\u00a345.17",
-    "author": "It's Only the Himalayas"
-}{
-    "title": "In Her Wake",
-    "price": "\u00a312.84",
-    "author": "In Her Wake"
+    "isstock": "In stock"
 }{
     "title": "How Music Works",
     "price": "\u00a337.32",
-    "author": "How Music Works"
+    "isstock": "In stock"
 }{
     "title": "Foolproof Preserving: A Guide to Small Batch Jams, Jellies, Pickles, Condiments, and More: A Foolproof Guide to Making Small Batch Jams, Jellies, Pickles, Condiments, and More",
     "price": "\u00a330.52",
-    "author": "Foolproof Preserving: A Guide ..."
+    "isstock": "In stock"
 }{
     "title": "Chase Me (Paris Nights #2)",
     "price": "\u00a325.27",
-    "author": "Chase Me (Paris Nights ..."
+    "isstock": "In stock"
 }{
     "title": "Black Dust",
     "price": "\u00a334.53",
-    "author": "Black Dust"
+    "isstock": "In stock"
 }{
     "title": "Birdsong: A Story in Pictures",
     "price": "\u00a354.64",
-    "author": "Birdsong: A Story in ..."
+    "isstock": "In stock"
 }{
     "title": "America's Cradle of Quarterbacks: Western Pennsylvania's Football Factory from Johnny Unitas to Joe Montana",
     "price": "\u00a322.50",
-    "author": "America's Cradle of Quarterbacks: ..."
+    "isstock": "In stock"
 }{
     "title": "Aladdin and His Wonderful Lamp",
     "price": "\u00a353.13",
-    "author": "Aladdin and His Wonderful ..."
+    "isstock": "In stock"
 }{
     "title": "Worlds Elsewhere: Journeys Around Shakespeare\u2019s Globe",
     "price": "\u00a340.30",
-    "author": "Worlds Elsewhere: Journeys Around ..."
+    "isstock": "In stock"
 }{
     "title": "Wall and Piece",
     "price": "\u00a344.18",
-    "author": "Wall and Piece"
+    "isstock": "In stock"
 }{
     "title": "The Four Agreements: A Practical Guide to Personal Freedom",
     "price": "\u00a317.66",
-    "author": "The Four Agreements: A ..."
+    "isstock": "In stock"
 }{
     "title": "The Five Love Languages: How to Express Heartfelt Commitment to Your Mate",
     "price": "\u00a331.05",
-    "author": "The Five Love Languages: ..."
+    "isstock": "In stock"
 }{
     "title": "The Elephant Tree",
     "price": "\u00a323.82",
-    "author": "The Elephant Tree"
+    "isstock": "In stock"
 }{
     "title": "The Bear and the Piano",
     "price": "\u00a336.89",
-    "author": "The Bear and the ..."
+    "isstock": "In stock"
 }{
     "title": "Sophie's World",
     "price": "\u00a315.94",
-    "author": "Sophie's World"
+    "isstock": "In stock"
 }{
     "title": "Penny Maybe",
     "price": "\u00a333.29",
-    "author": "Penny Maybe"
+    "isstock": "In stock"
 }{
     "title": "Maude (1883-1993):She Grew Up with the country",
     "price": "\u00a318.02",
-    "author": "Maude (1883-1993):She Grew Up ..."
+    "isstock": "In stock"
 }{
     "title": "In a Dark, Dark Wood",
     "price": "\u00a319.63",
-    "author": "In a Dark, Dark ..."
+    "isstock": "In stock"
 }{
     "title": "Behind Closed Doors",
     "price": "\u00a352.22",
-    "author": "Behind Closed Doors"
+    "isstock": "In stock"
 }{
     "title": "You can't bury them all: Poems",
     "price": "\u00a333.63",
-    "author": "You can't bury them ..."
+    "isstock": "In stock"
 }

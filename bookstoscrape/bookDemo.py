@@ -31,12 +31,13 @@ for i in range(1,int(all_page+1)):
         All_book = []
         title=book.find_element(By.XPATH,"./article/h3/a")
         price=book.find_element(By.XPATH,"./article/div[2]/p[1]").text
-        author=book.find_element(By.XPATH,"./article/h3/a").text
+        isstock=book.find_element(By.XPATH,"./article/div[2]/p[2]").text
+
         title = title.get_attribute('title')
         All_book.append({
             "title":title,
             "price":price,
-            "author":author
+            "isstock":isstock
         })
         json.dump(All_book[0], open("books.json", "a"),indent=4)
 driver.quit()
