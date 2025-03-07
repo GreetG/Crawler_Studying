@@ -58,4 +58,4 @@ def get_distance(fg, bg):
     return int(distance)
 ```
 *finally就是传参数进去检验啦，值得注意的就是图片大小和检验大小这块，网站上显示大小只有二分之一*  
-![结果展示](imgs/树莓滑块.png)  
+![结果展示](https://github.com/GreetG/Crawler_Studying/blob/d44e44dc029aef9261342337a219fe5cd27cf19e/imgs/%E6%A0%91%E8%8E%93%E6%BB%91%E5%9D%97.png)  
