@@ -64,8 +64,6 @@ return [s,h,w,XTingyun]
 
 function get_param(){
     var sm2 = require("sm-crypto").sm2
-
-
     function v(e) {
                 var t = [];
                 for (var n in e)
@@ -150,14 +148,13 @@ function get_param(){
         i.data = p(i.data);
 
         var r = v(i)
-
         , a = sm2.doSignature(r, "009c4a35d9aca4c68f1a3fa89c93684347205a4d84dc260558a049869709ac0b42", {
         hash: !0
         });
-        console.log(a)
+
         // console.log(a)
-        sign_DATA =  Buffer.from("4a31f5b8bc6e653531502f28525e9f72d973b632b8c91dcfc5841ed352ab057b93ba85cf5beb92c53fe06106994e2706277f4ab284055b4c570055b130b23303", "hex").toString("base64")
-        console.log(sign_DATA)
+        sign_DATA =  Buffer.from(a, "hex").toString("base64")
+
 
 
 
@@ -302,8 +299,7 @@ function get_param(){
     // console.log(s)
     var l = b(s, a);
         // console.log(l)
-    enc_DATA = "3dfbca4667b978f639bb23b95dce4cc7bf20a5e88ea26078ebc67b861077836accd20943b4dae96380b41164d761de9742c84a985fe3babc31cb352556bb87c9c1495db24a29ab6bc3a85ab7fca00f33c56677481a67c67f739ee2c7d589054dc373615b5ddb33c24c5b31e61cb7643e8ccaa19eae1fd36157cf9869e3a3753ed0b4e7bb97c60bf8e5275cafcafd1e13e384c10195003fd638576645b5ef45ea"
-        enc_DATA = enc_DATA.toUpperCase()
+        enc_DATA = l.toUpperCase()
     console.log(enc_DATA)
     return [sign_DATA,enc_DATA]
 
