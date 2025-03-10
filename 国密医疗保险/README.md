@@ -66,7 +66,7 @@ s = Math.ceil((new Date).getTime() / 1e3),
         enc_DATA = l.toUpperCase()
 ```
 ***将header和payload都逆向模拟出来后可直接发送请求获取数据，注意timestamp需要保持一致***
+*代码不可直接运行，已对b函数进行修改*
 
 
-
-![结果展示](..%2Fimgs%2Ftaiwanbbs.png)  
+![结果展示](https://github.com/GreetG/Crawler_Studying/blob/04e49838ac3606369ff760a4afc98261d47de63c/imgs/%E5%8C%BB%E4%BF%9D.png)  
