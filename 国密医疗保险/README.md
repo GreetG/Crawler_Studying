@@ -73,4 +73,4 @@ subprocess.Popen = partial(subprocess.Popen, encoding='utf-8')
 *代码不可直接运行，已对b函数进行修改*
 
 
-![结果展示](https://github.com/GreetG/Crawler_Studying/blob/04e49838ac3606369ff760a4afc98261d47de63c/imgs/%E5%8C%BB%E4%BF%9D.png)  
+![结果展示](https://github.com/GreetG/Crawler_Studying/blob/e675b49f89c89b02f85112b5ad7c918ea35018b3/imgs/%E5%8C%BB%E4%BF%9D.png)  
