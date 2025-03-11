@@ -42,30 +42,34 @@ s = Math.ceil((new Date).getTime() / 1e3),
     // console.log(u)
 
     var s = y(u, "NMVFVILMKT13GEMD3BKPKCTBOQBPZR2P")
-    s = [
-    67,
-    51,
-    65,
-    69,
-    53,
-    56,
-    55,
-    51,
-    68,
-    48,
-    56,
-    52,
-    49,
-    56,
-    68,
-    65
-]
     // console.log(s)
     var l = b(s, a);
         // console.log(l)
         enc_DATA = l.toUpperCase()
 ```
 ***将header和payload都逆向模拟出来后可直接发送请求获取数据，注意timestamp需要保持一致***
+
+***最后是解密环节，搜索encData找到send函数一路追踪发现解密逻辑***
+```
+function get_response(q){
+            var n = Buffer.from(q, "hex")
+              , i = function(t, n) {
+                var i = m_finally(n, t)
+                  , r = i[i.length - 1];
+                return i = i.slice(0, i.length - r),
+                Buffer.from(i).toString("utf-8")
+            }(y_test("T98HPCGN5ZVVQBS8LZQNOAEXVI9GYHKQ", "NMVFVILMKT13GEMD3BKPKCTBOQBPZR2P"), n);
+            return JSON.parse(i)
+        }
+```
+***这里需要注意，直接从接口获取的encData会带个\n换行不知道会不会有影响，并且直接用execjs会报错编码问题，需要调用以下函数***
+
+```
+from functools import partial
+import subprocess
+subprocess.Popen = partial(subprocess.Popen, encoding='utf-8')
+```
+***并且需要修改subprocess里面的encoding，改成utf-8***
 *代码不可直接运行，已对b函数进行修改*
 
 
