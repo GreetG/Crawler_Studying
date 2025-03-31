@@ -198,3 +198,4 @@ function get_params() {
     var result = window.f + '丨' + date / (-1 * 3483 + -9059 + 13542);
     return result
 }
+

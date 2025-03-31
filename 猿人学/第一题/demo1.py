@@ -1,5 +1,11 @@
-import execjs
+
 import requests
+
+import subprocess
+from functools import partial  # 用来固定某个参数的固定值
+subprocess.Popen = partial(subprocess.Popen, encoding='utf-8')
+import execjs
+# 解决execjs执行js时产生的乱码报错，需要在导入execjs模块之前，让Popen的encoding参数锁定为utf-8
 
 
 headers = {
