@@ -16,17 +16,16 @@ def getMaxNumber():
 
 def getPageUrl(max_number):
 
-    for i in range(int(max_number),1,-1 ):
+    for i in range(int(1),0,-1 ):
         url = f"https://www.ptt.cc/bbs/Stock/index{i}.html"
         tree = etree.HTML(requests.get(url,headers=headers).text)
         page_urls = tree.xpath("//*[@class='r-ent']/div[2]/a/@href")
         for page_url in page_urls:
             page_url = "https://www.ptt.cc" + page_url
-            data=getPageContent(page_url)
+            print("获取到" + page_url)
             with open("output.txt", "a", encoding="utf-8") as f:
-                for key, value in data.items():
-                    f.write(f"{key}:{value}\n")
-            print(f"写入第{i}篇")
+                    f.write(page_url+"\n")
+        print(f"写入第{i}页")
 
 
 def getPageContent(page_url):
