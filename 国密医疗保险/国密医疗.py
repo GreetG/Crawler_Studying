@@ -2,8 +2,11 @@ import execjs
 import requests
 import json
 
+from functools import partial
+import subprocess
+subprocess.Popen = partial(subprocess.Popen, encoding='utf-8')
 
-f = open("demo.js","r",encoding="utf-8")
+f = open("demo.js","r",encoding='utf-8')
 js_code = f.read()
 f.close()
 ctx = js_code = execjs.compile(js_code)
@@ -46,18 +49,32 @@ data = {
         "version": "1.0.0",
         "encType": "SM4",
         "signType": "SM2",
-        "timestamp": 1741626318,
+        "timestamp": verify_headers[0],
         "signData": f"{verify_data[0]}"
     }
 }
+
 cookies = {
     "amap_local": "430500",
     "yb_header_active": "-1",
-    "acw_tc": "276aedd117416203050208409e6e8a18f635fa0c87b540316fe27f368c0ad6"
+    "acw_tc": "276aedeb17456536623181434e59c7a4c18bf0ccff31fa205fa68284154ade" #这个cookies需要获取
+
 }
 data = json.dumps(data, separators=(',', ':'))
-response = requests.post(url, headers=headers, data=data,cookies=cookies)
-print(response.text)
-print(response)
+# print(data)
+session =requests.session()
+response = session.post(url, headers=headers, data=data,cookies=cookies)
+enc_res_data=response.json()
+# print(enc_res_data)
+res=enc_res_data['data']['data']['encData']
+
+print(res.strip())
+
+
+res = res.replace("\n", "")
+#
+res_data = ctx.call("get_response",res)
+print(res_data['list'])
+
 
 
