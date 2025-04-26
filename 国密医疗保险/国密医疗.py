@@ -46,14 +46,14 @@ data = {
         "version": "1.0.0",
         "encType": "SM4",
         "signType": "SM2",
-        "timestamp": 1744861435,
+        "timestamp": 1741626318,
         "signData": f"{verify_data[0]}"
     }
 }
 cookies = {
-    "acw_tc": "3ccdc15817448613941915859e444e33786d8fbdd60a563c804f6b55174fa4",
-    "gb_nthl_sessionId": "b53475a8478a481c9082ff2253e4c783",
-    "yb_header_show": "true"
+    "amap_local": "430500",
+    "yb_header_active": "-1",
+    "acw_tc": "276aedd117416203050208409e6e8a18f635fa0c87b540316fe27f368c0ad6"
 }
 data = json.dumps(data, separators=(',', ':'))
 response = requests.post(url, headers=headers, data=data,cookies=cookies)
